@@ -1,31 +1,85 @@
-# **How To install Arduino Library**
+# How to Install an Arduino Library
 
-## Installing Arduino libraries through website
+This guide explains two common ways to install Arduino libraries, using the **I2C LCD (LiquidCrystal I2C)** library as an example.
 
-For this tutorial I will be installing the I2C LCD screen module.
+---
 
-First Download the 1.1.2 I2C LCD Screen zip file using the website below
+## Method 1: Install Arduino Libraries via Website (ZIP File)
 
-[https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/](https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/)
+### Step 1: Download the Library
 
-![1765899506735](images/How_to_install_arduino_library/1765899506735.png)
+For this tutorial, we will install the I2C LCD screen module library.
 
-Once the file has been downloaded, open the Arduino IDE software, and click on Sketch on the toolbar, go to include Library, and select add .ZIP library…
+1. Open the official Arduino library page:
+   https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/
+2. Download **LiquidCrystal_I2C version 1.1.2** as a ZIP file.
 
-![1765899608990](images/How_to_install_arduino_library/1765899608990.png)
+![Download library](images/How_to_install_arduino_library/1765899506735.png)
 
-Find the LiquidCrystal\_I2C-1.1.2.zip in the explorer (most likely to be in the download folder) and click open.
+---
 
-![1765899655160](images/How_to_install_arduino_library/1765899655160.png)
+### Step 2: Add the ZIP Library in Arduino IDE
 
-Confirm the library has been installed in the output.
+1. Open **Arduino IDE**
+2. From the top menu, navigate to:
 
-## Installing a Library using the Arduino IDE
+![Add ZIP library](images/How_to_install_arduino_library/1765899608990.png)
 
-First open up the Arduino IDE
-![1765899801860](images/How_to_install_arduino_library/1765899801860.png)
-Click on the third icon (looks like a book)
-![1765899825625](images/How_to_install_arduino_library/1765899825625.png)
-Search for “LiquidCrystal I2C” in the search bar click install on the first library by Frank de Brabander.
-![1765899856295](images/How_to_install_arduino_library/1765899856295.png)
+---
+
+### Step 3: Select the ZIP File
+
+1. Locate `LiquidCrystal_I2C-1.1.2.zip` (usually in the **Downloads** folder)
+2. Click **Open**
+
+![Select ZIP file](images/How_to_install_arduino_library/1765899655160.png)
+
+---
+
+### Step 4: Verify Installation
+
+Once installed, a confirmation message will appear in the Arduino IDE output window, indicating the library has been successfully added.
+
+---
+
+## Method 2: Install a Library Using Arduino Library Manager
+
+### Step 1: Open Arduino IDE
+
+Launch **Arduino IDE**
+
+![Open Arduino IDE](images/How_to_install_arduino_library/1765899801860.png)
+
+---
+
+### Step 2: Open Library Manager
+
+Click the **Library Manager** icon (book icon) on the left-hand toolbar.
+
+![Library Manager icon](images/How_to_install_arduino_library/1765899825625.png)
+
+Sketch → Include Library → Add .ZIP Library...
+
+---
+
+### Step 3: Search and Install the Library
+
+1. In the search bar, type: LiquidCrystal I2C
+2. Select **LiquidCrystal I2C by Frank de Brabander**
+3. Click **Install**
+
+![Install library](images/How_to_install_arduino_library/1765899856295.png)
+
+---
+
+## Notes
+
+- Both installation methods achieve the same result
+- **Library Manager** is recommended for most standard libraries
+- **ZIP installation** is useful for older versions or manually downloaded libraries
+  
+
+
+
+
 
