@@ -31,7 +31,7 @@ Connect each row and column pin from the keypad to a **digital pin** on the Ardu
 > Any digital pins can be used. Just make sure the same pin numbers are defined correctly in your Arduino code.
 
 ### 3. Keypad Layout (4×3)
-![alt text](<Keypadlayout.png>)
+![alt text](<images/How_to_use_Keypad/Keypadlayout.png>)
 
 ---
 
