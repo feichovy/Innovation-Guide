@@ -28,7 +28,7 @@ Since Arduino cannot measure resistance directly, the FSR is used together with 
 
 ---
 
-## 2*. Layout (If Have)
+## 2*. Layout
 - The FSR has two pins only.
 - It must always be used with a fixed resistor.
 - Do not connect the FSR directly to A0 without a resistor.
