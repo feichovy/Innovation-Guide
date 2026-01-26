@@ -30,7 +30,7 @@ The Arduino generates sound using the built-in `tone()` function.
 | Arduino D9 | → Resistor |
 | Resistor | → Speaker |
 | Speaker | → Arduino GND |
-
+![alt text](</images/How_to_use_Speaker/Speaker.png>)
 **Connection order:**  
 `Arduino D9 → Resistor → Speaker → GND`
 
