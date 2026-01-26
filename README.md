@@ -1,4 +1,41 @@
-# Innovation-Guide
-This is the guidance documents for BCU students to leverage the resources at Innovation Lab to prepare for Innovation Fest
+# Innovation Lab Hardware Guide
 
-We would briefly introduce the device and how to use in the document, we'd also provide some codes to verify the functionality.
+A practical hardware usage guide for **BCU students** to support learning and project development at the **Innovation Lab** and preparation for **Innovation Fest**.
+
+This repository provides:
+- Brief introductions to commonly used electronic components  
+- Step-by-step connection guides  
+- Example Arduino code for functional testing  
+- Basic troubleshooting tips  
+
+The goal is to help students **quickly understand**, **correctly wire**, and **safely test** hardware devices used in the lab.
+
+---
+
+## 📌 Target Users
+
+This guide is designed for:
+- BCU students using the Innovation Lab facilities  
+- Beginners in Arduino and electronics  
+- Students preparing prototypes for Innovation Fest  
+
+No prior electronics knowledge is required.
+
+---
+
+## 🧩 Covered Devices (Examples)
+
+- Speaker (Passive Buzzer / Speaker)
+- Servo Motor (3-pin)
+- Relay Module (Optocoupler Relay)
+- PIR Motion Sensor (e.g. WPM406)
+- Other basic input/output modules
+
+Each device includes:
+- Description of function  
+- Pin identification  
+- Wiring method  
+- Arduino test code  
+- Verification steps  
+
+---
