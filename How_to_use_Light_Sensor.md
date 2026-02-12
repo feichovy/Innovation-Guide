@@ -1,4 +1,4 @@
-### How to use Light Sensor with Arduino R3 UNO
+### How to use Light Sensor 
 # Light Sensor (2-pin LDR)
 
 ## 1. How it works
