@@ -9,6 +9,10 @@ The DHT22 is a **digital temperature and humidity sensor** with an internal cali
 - The required library can be installed via **Arduino Library Manager**
 - The sensor should not be read more frequently than **once every 2 seconds**
 
+<p align="center">
+  <img src="images/How_to_use_DHT22_Sensor/DHT22_Sensor.png" alt="DHT22_Sensor">
+</p>
+
 ---
 
 ## 2. How to connect
@@ -34,6 +38,8 @@ When facing the front of the sensor (with holes visible), from **left to right**
 2. Connect **Green (DATA)** to Arduino **D2**, aligned with the test code below
 3. Connect **Red (VCC)** to Arduino **5V**
 4. Connect **Black (GND)** to Arduino **GND**
+
+![alt text](images/How_to_use_DHT22_Sensor/Layout.png)
 
 > Note: Most 3-pin DHT22 modules already include a pull-up resistor.  
 > No external resistor is required.

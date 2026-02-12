@@ -1,9 +1,10 @@
-## Analogue Stick (5-Pin) with Arduino Uno R3
+## Analogue Stick
 
 ### 1. How to Use the Analogue Stick
-
 A 5-pin analogue stick is an input device that detects movement in two directions (X and Y) and also includes a built-in push button.  
 The Arduino reads the position of the stick as analogue values and reads the button as a digital signal.
+
+![alt text](<images/How_to_use_Analog_Stick/Analog_Stick.png>)
 
 **Pin description:**
 
@@ -26,6 +27,7 @@ The female ends connect to the stick pins, and the male ends connect to the Ardu
 
 **Connection example:**
 
+![alt text](images/How_to_use_Analog_Stick/Layout.png)
 | Analogue Stick | Arduino Uno R3 |
 |---------------|----------------|
 | **VCC** | **5V** |
