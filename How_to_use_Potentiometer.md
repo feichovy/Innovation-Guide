@@ -2,7 +2,7 @@
 
 ## 1. How it works
 A potentiometer is a **variable resistor** that outputs a **continuous voltage** depending on the knob position.
-![alt text](</images/How_to_use_potentiometer/What-is-a-potentiometer.jpg>)
+![alt text](</images/How_to_use_potentiometer/What-is-a-potentiometer.png>)
 - The two outer pins are connected to **5V** and **GND**
 - The middle pin (wiper) outputs a voltage between **0V and 5V**
 - This output is a **continuous (analog) signal**
@@ -30,10 +30,12 @@ Because the output voltage changes smoothly, the potentiometer must be connected
 ---
 
 ## 3. Layout (Wiring reference)
+![alt text](images/How_to_use_potentiometer/Layout.png)
 
 - The **middle pin** is always the signal output
 - The two outer pins are the power ends
 - Swapping 5V and GND only changes rotation direction
+
 
 ---
 

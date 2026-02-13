@@ -2,6 +2,8 @@
 
 ## 1. How it works
 
+![alt text](images/How_to_use_Optocouple_Relay/Optocoupler_Relay.png)
+
 An **optocoupler relay module** uses an **optocoupler (optical isolator)** to electrically isolate the Arduino control side from the load side.
 
 - Arduino sends a digital signal to the **CTR (control) pin**

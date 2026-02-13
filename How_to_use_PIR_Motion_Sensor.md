@@ -1,6 +1,9 @@
 # PIR Motion Sensor
 
 ## 1. How it works
+
+![alt text](images/How_to_use_PIR_sensor/PIR_Motion_sensor.png)
+
 A PIR (Passive Infrared) sensor detects **motion of warm objects**, such as the human body.
 
 - Humans emit infrared radiation
@@ -19,6 +22,8 @@ The sensor does **not** detect stationary objects, only motion.
 - PIR motion sensor (e.g. HC-SR501)
 - Jumper wires
 - Breadboard (optional)
+
+![alt text](images/How_to_use_PIR_sensor/layout.png)
 
 ### Pin definition  
 (When facing the sensor with the white dome toward you — check silkscreen on your module)

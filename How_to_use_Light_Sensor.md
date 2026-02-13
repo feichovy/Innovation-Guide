@@ -2,6 +2,9 @@
 # Light Sensor (2-pin LDR)
 
 ## 1. How it works
+
+![alt text](images/How_to_use_light_sensor/light_sensor.png)
+
 A 2-pin light sensor (LDR, Light Dependent Resistor) is a passive component whose resistance changes with light intensity.
 
 - Bright environment → lower resistance  

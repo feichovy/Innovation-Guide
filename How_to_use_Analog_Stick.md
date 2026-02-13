@@ -30,8 +30,8 @@ The female ends connect to the stick pins, and the male ends connect to the Ardu
 ![alt text](images/How_to_use_Analog_Stick/Layout.png)
 | Analogue Stick | Arduino Uno R3 |
 |---------------|----------------|
-| **VCC** | **5V** |
 | **GND** | **GND** |
+| **VCC** | **5V**|
 | **VRx / X** | **A0** |
 | **VRy / Y** | **A1** |
 | **SW** | **D2** |
