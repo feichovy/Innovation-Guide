@@ -1,7 +1,7 @@
-# DHT22 Temperature and Humidity Sensor
+# DHT11 and DHT22 Temperature and Humidity Sensor
 
 ## 1. How it works
-The DHT22 is a **digital temperature and humidity sensor** with an internal calibrated sensor and signal processor.
+The DHT11 and DHT22 is a **digital temperature and humidity sensor** with an internal calibrated sensor and signal processor.
 
 - It measures **temperature and humidity** and sends the data digitally
 - Communication is done through a **single DATA pin**
@@ -11,6 +11,9 @@ The DHT22 is a **digital temperature and humidity sensor** with an internal cali
 
 <p align="center">
   <img src="images/How_to_use_DHT22_Sensor/DHT22_Sensor.png" alt="DHT22_Sensor">
+</p>
+<p align="center">
+  <img src="images/How_to_use_DHT22_Sensor/DHT11.png" alt="DHT11_Sensor">
 </p>
 
 ---
@@ -34,7 +37,7 @@ When facing the front of the sensor (with holes visible), from **left to right**
 - Jumper wires
 
 ### Wiring steps
-1. Insert the DHT22 into the breadboard
+1. Insert the DHT11 or DHT22 into the breadboard
 2. Connect **Green (DATA)** to Arduino **D2**, aligned with the test code below
 3. Connect **Red (VCC)** to Arduino **5V**
 4. Connect **Black (GND)** to Arduino **GND**
@@ -57,7 +60,7 @@ When facing the front of the sensor (with holes visible), from **left to right**
 #include <DHT.h>
 
 #define DHTPIN 2
-#define DHTTYPE DHT22
+#define DHTTYPE DHT22 // Change into '11' if using DHT11 Sensor
 
 DHT dht(DHTPIN, DHTTYPE);
 

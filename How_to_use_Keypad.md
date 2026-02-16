@@ -27,11 +27,12 @@ Connect each row and column pin from the keypad to a **digital pin** on the Ardu
 | Pin 5 | Column 1 (C1) | D5 |
 | Pin 6 | Column 2 (C2) | D4 |
 | Pin 7 | Column 3 (C3) | D3 |
+| Pin 8 | Column 4 (C4) | D2 | (If the Keypad is 4*4)
 
 > Any digital pins can be used. Just make sure the same pin numbers are defined correctly in your Arduino code.
 
 ### 3. Keypad Layout (4×3)
-![alt text](<images/How_to_use_Keypad/Keypadlayout.png>)
+![alt text](<images/How_to_use_Keypad/keypadlayout.png>)
 
 ---
 
@@ -44,7 +45,7 @@ Install the **Keypad** library first:
 #include <Keypad.h>
 // The ROWS and COLS depend on layout
 const byte ROWS = 4;
-const byte COLS = 3; 
+const byte COLS = 3; // 4 if Using 4 * 4 Keypad
 // Align with layout
 char keys[ROWS][COLS] = {
   {'1','2','3'},
@@ -52,10 +53,16 @@ char keys[ROWS][COLS] = {
   {'7','8','9'},
   {'*','0','#'}
 };
+// char keys[ROWS][COLS] = {
+//   {'1','2','3','A'},
+//   {'4','5','6','B'},
+//   {'7','8','9','C'},
+//   {'*','0','#','D'}
+// };
 
 byte rowPins[ROWS] = {9, 8, 7, 6};   // R1–R4
 byte colPins[COLS] = {5, 4, 3};      // C1–C3
-
+// byte colPins[COLS] = {5, 4, 3, 2};
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 
 void setup() {
