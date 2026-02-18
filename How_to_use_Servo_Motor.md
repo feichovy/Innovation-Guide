@@ -4,7 +4,7 @@
 
 A **3-pin servo motor** is controlled by a PWM signal from the Arduino.  
 The Arduino sends pulse signals to set the servo position, typically between **0° and 180°**.
-
+![servo motor](images/How_to_use_Servo_Motor/servo_motor.png)
 A standard servo has:
 - **Signal** pin: receives control signal
 - **VCC** pin: provides power (5V)
@@ -32,9 +32,7 @@ A standard servo has:
 | VCC (Red) | 5V |
 | Signal (Yellow/Orange/White) | D9 |
 
-
-::contentReference[oaicite:0]{index=0}
-
+![Servo Motor Circuit](images/How_to_use_Servo_Motor/layout.png)
 
 > Any digital pin can be used, but **D9** is commonly used.
 

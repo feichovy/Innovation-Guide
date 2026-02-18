@@ -51,7 +51,7 @@ For this module, the control logic is:
 > Note:  
 > - The **CTR pin is active LOW** (LOW = ON).  
 > - If no load is connected, you can still verify operation using the indicator LED or relay sound.
-
+![alt text](images/How_to_use_Optocouple_Relay/layout.png)
 ---
 
 ## 5. Test code

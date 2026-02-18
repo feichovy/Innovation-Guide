@@ -19,7 +19,7 @@ If you are using this, please install the library below.
 ## Test Code for the I2C Screen
 
 First, we will need to connect some wires from the Arduino to the LCD screen.
-![1765905151278](images/What_LCD_you_are_using/1765905151278.png)
+![LCD Circuit](images/What_LCD_you_are_using/circuit.png)
 
 ### Test Code for LCD 16x2.
 
